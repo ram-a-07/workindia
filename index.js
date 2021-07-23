@@ -36,6 +36,7 @@ app.post("/create", (req,res)=>{
             result(err, null);
             return ;
         }
+        res.json({message:"Created"})
     });
 });
 
